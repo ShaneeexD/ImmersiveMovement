@@ -1,0 +1,85 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt\Shadows of Doubt_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt Mono\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt Mono\BepInEx\core\BepInEx.Harmony.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.Common">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt\BepInEx\core\BepInEx.Unity.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.Mono">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt\BepInEx\core\BepInEx.Unity.Mono.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppMono.Security">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppMono.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Configuration">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Data">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Net.Http">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Net.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Numerics">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Numerics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Runtime.Serialization">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Runtime.Serialization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Xml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Il2CppSystem.Xml.Linq">
+      <HintPath>C:\Users\shane\AppData\Roaming\r2modmanPlus-local\ShadowsofDoubt\profiles\NewBuild\BepInEx\interop\Il2CppSystem.Xml.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Shadows of Doubt\Shadows of Doubt_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
