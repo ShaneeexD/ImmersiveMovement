@@ -23,7 +23,7 @@ namespace ImmersiveMovement
             Logger.LogInfo("Loading ImmersiveMovement...");
 
             walkSpeedMultiplier = Config.Bind("Player", "Walk Speed", 1.7f, "Player walking speed. (Game default 4)");
-            runSpeedMultiplier = Config.Bind("Player", "Run Speed", 3.0f, "Player for player running speed. (Game default 8)");
+            runSpeedMultiplier = Config.Bind("Player", "Run Speed", 3.0f, "Player running speed. (Game default 8)");
 
             Logger.LogInfo($"Walk speed multiplier: {walkSpeedMultiplier.Value}");
             Logger.LogInfo($"Run speed multiplier: {runSpeedMultiplier.Value}");
