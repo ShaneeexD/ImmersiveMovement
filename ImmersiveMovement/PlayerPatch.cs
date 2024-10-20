@@ -18,13 +18,14 @@ namespace ImmersiveMovement
 
                 if (controls != null)
                 {
-                    controls.playerWalkSpeed = 1.5f;
-                    controls.playerRunSpeed = 2.8f;
+                    controls.playerWalkSpeed = ImmersiveMovement.walkSpeedMultiplier.Value;
+                    controls.playerRunSpeed = ImmersiveMovement.runSpeedMultiplier.Value;
 
                     if (!logSent)
                     {
                         logSent = true;
                         ImmersiveMovement.Logger.LogInfo("Player speed modified.");
+                        
                     }
                 }
                 else
